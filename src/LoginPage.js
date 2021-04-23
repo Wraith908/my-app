@@ -38,9 +38,13 @@ class LoginPage extends Component {
               Tickme:
               <input name = "editor" type = "checkbox" checked = {editor} onChange = {this.handleChange} />
             </label>
+            <br />
             <input type = "submit" value = "Login" />
           </form>
         </div>
+        <footer id = "footer">
+          <p>C3303694</p>
+        </footer>
       </div>
     );
   }

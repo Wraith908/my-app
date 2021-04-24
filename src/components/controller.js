@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import LoginPage from './components/login-page';
-import LandingPage from './components/landing-page';
+import LoginPage from './login-page';
+import LandingPage from './landing-page';
 
 class Controller extends Component {
   constructor(props) {

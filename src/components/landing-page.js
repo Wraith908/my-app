@@ -21,7 +21,7 @@ class LandingPage extends Component {
           <p>Welcome {editor ? 'Editor ' : 'Student '}{name}</p>
         </header>
         <nav>
-
+          
         </nav>
         </div>
         <footer id = "footer">

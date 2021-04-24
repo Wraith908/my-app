@@ -28,11 +28,11 @@ class LandingPage extends Component {
             <p>Welcome {editor ? 'Editor ' : 'Student '}{name}</p>
           </header>
           <nav>
-            <Link to ="/">University Services</Link>
-            <Link to ="/directory">Staff Directory</Link>
-            <Link to ="/week-one-survival-pack">Week 1 Survival Pack</Link>
-            <Link to ="/university-expectations">What to expect at University</Link>
-            <Link to ="/faqs-and-testimonials">FAQs and Testionials</Link>
+            <Link to ="/" className = "nav-link">University Services</Link>
+            <Link to ="/directory" className = "nav-link">Staff Directory</Link>
+            <Link to ="/week-one-survival-pack" className = "nav-link">Week 1 Survival Pack</Link>
+            <Link to ="/university-expectations" className = "nav-link">What to expect at Universit</Link>
+            <Link to ="/faqs-and-testimonials" className = "nav-link">FAQs and Testionials</Link>
           </nav>
           </div>
           <footer id = "footer">
@@ -43,7 +43,7 @@ class LandingPage extends Component {
           </footer>
         </div>
         <Switch>
-          <Route path = "/">
+          <Route exact path = "/">
             <UniversityServices />
           </Route>
           <Route path = "/directory">

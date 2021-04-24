@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import LoginPage from './login-page';
-import LandingPage from './landing-page';
+import LoginPage from './components/login-page';
+import LandingPage from './components/landing-page';
 
 class Controller extends Component {
   constructor(props) {

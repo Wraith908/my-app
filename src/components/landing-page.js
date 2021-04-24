@@ -15,10 +15,15 @@ class LandingPage extends Component {
     const editor = this.props.editor;
     return (
       <div>
-        <header className = "Header">
+        <div className = "header">
+        <header className = "header">
           <h1>UoNBegin</h1>
           <p>Welcome {editor ? 'Editor ' : 'Student '}{name}</p>
         </header>
+        <nav>
+
+        </nav>
+        </div>
         <footer id = "footer">
           <p>C3303694</p>
           <form onSubmit = {this.handleSubmit}>

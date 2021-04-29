@@ -7,7 +7,9 @@ class UniversityExpectations extends Component {
 
   render() {
     return (
-      <h1>University Expecations</h1>
+      <div>
+        <h1>University Expecations</h1>
+      </div>
     );
   }
 }

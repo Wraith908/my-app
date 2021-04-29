@@ -7,7 +7,9 @@ class WeekOneSurvivalPack extends Component {
 
   render() {
     return (
-      <h1>Week One Survival Pack</h1>
+      <div>
+        <h1>Week One Survival Pack</h1>
+      </div>
     );
   }
 }

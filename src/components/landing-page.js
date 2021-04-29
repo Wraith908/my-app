@@ -35,6 +35,23 @@ class LandingPage extends Component {
             <Link to ="/faqs-and-testimonials" className = "nav-link">FAQs and Testionials</Link>
           </nav>
           </div>
+          <Switch>
+            <Route exact path = "/">
+              <UniversityServices />
+            </Route>
+            <Route path = "/directory">
+              <StaffDirectory />
+            </Route>
+            <Route path = "/week-one-survival-pack">
+              <WeekOneSurvivalPack />
+            </Route>
+            <Route path = "/university-expectations">
+              <UniversityExpectations />
+            </Route>
+            <Route path = "/faqs-and-testimonials">
+              <FAQsAndTestimonials />
+            </Route>
+          </Switch>
           <footer id = "footer">
             <p>C3303694</p>
             <form onSubmit = {this.handleSubmit}>
@@ -42,23 +59,6 @@ class LandingPage extends Component {
             </form>
           </footer>
         </div>
-        <Switch>
-          <Route exact path = "/">
-            <UniversityServices />
-          </Route>
-          <Route path = "/directory">
-            <StaffDirectory />
-          </Route>
-          <Route path = "/week-one-survival-pack">
-            <WeekOneSurvivalPack />
-          </Route>
-          <Route path = "/university-expectations">
-            <UniversityExpectations />
-          </Route>
-          <Route path = "/faqs-and-testimonials">
-            <FAQsAndTestimonials />
-          </Route>
-        </Switch>
       </Router>
     );
   }

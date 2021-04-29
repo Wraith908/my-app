@@ -7,7 +7,16 @@ class UniversityServices extends Component{
 
   render() {
     return (
-      <h1>University Services</h1>
+      <div>
+        <div class="faqs-and-testimonials">
+          <h1>What uni can do for you</h1>
+          <ul>
+            //I need some way of filtering dummy data
+            //However I don't need to implement db interactions yet
+            //
+          </ul>
+        </div>
+      </div>
     );
   }
 }

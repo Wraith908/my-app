@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import FAQTile from '../components/FAQTile';
 class FAQsAndTestimonials extends Component {
   constructor(props) {
     super(props);

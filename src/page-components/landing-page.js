@@ -31,7 +31,7 @@ class LandingPage extends Component {
             <Link to ="/" className = "nav-link">University Services</Link>
             <Link to ="/directory" className = "nav-link">Staff Directory</Link>
             <Link to ="/week-one-survival-pack" className = "nav-link">Week 1 Survival Pack</Link>
-            <Link to ="/university-expectations" className = "nav-link">What to expect at Universit</Link>
+            <Link to ="/university-expectations" className = "nav-link">What to expect at University</Link>
             <Link to ="/faqs-and-testimonials" className = "nav-link">FAQs and Testionials</Link>
           </nav>
           </div>

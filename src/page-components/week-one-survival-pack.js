@@ -9,6 +9,7 @@ class WeekOneSurvivalPack extends Component {
     return (
       <div>
         <h1>Week One Survival Pack</h1>
+        <p>Here's what you need to know fam</p>
       </div>
     );
   }

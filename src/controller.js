@@ -18,11 +18,15 @@ class Controller extends Component {
 
   handleLoginSubmit(event) {
     event.preventDefault();
-    if (this.state.password === '123')  {
+    if (this.state.editor && this.state.password === 'SecurePassword')  {
       this.setState({
         isLoggedIn: true
       });
       alert('Login Successful');
+    } else if (!this.state.editor) {
+      this.setState({
+        isLoggedIn: true
+      });
     } else {
       alert('Logout Unsuccessful');
     }

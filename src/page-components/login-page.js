@@ -21,27 +21,7 @@ class LoginPage extends Component {
     const editor = this.props.editor;
     return (
       <div>
-        <h1>Log In</h1>
-        <div className = "loginForm">
-          <form onSubmit = {this.handleSubmit}>
-            <label>
-              Name:
-              <input name = "name" type = "text" value = {name} onChange = {this.handleChange} />
-            </label>
-            <br />
-            <label>
-              Password:
-              <input name = "password" type = "password" value = {password} onChange = {this.handleChange} />
-            </label>
-            <br />
-            <label>
-              Tickme:
-              <input name = "editor" type = "checkbox" checked = {editor} onChange = {this.handleChange} />
-            </label>
-            <br />
-            <input type = "submit" value = "Login" />
-          </form>
-        </div>
+        <Body name = {name} password = {name} editor = {editor} handleChange = {this.handleChange} handleSubmit = {this.handleSubmit}/>
         <footer id = "footer">
           <p>C3303694</p>
         </footer>
@@ -50,4 +30,45 @@ class LoginPage extends Component {
   }
 }
 
+function Body(props) {
+  if (props.editor) {
+    return (
+      <div className = "loginForm">
+        <h1>Log In</h1>
+        <form onSubmit = {props.handleSubmit}>
+          <label>
+            Name:
+            <input name = "name" type = "text" value = {props.name} onChange = {props.handleChange} />
+          </label>
+          <br />
+          <label>
+            Password:
+            <input name = "password" type = "password" value = {props.password} onChange = {props.handleChange} required/>
+          </label>
+          <br />
+          <label>
+            I need to edit the website:
+            <input name = "editor" type = "checkbox" checked = {props.editor} onChange = {props.handleChange} />
+          </label>
+          <br />
+          <input type = "submit" value = "Login" />
+        </form>
+      </div>
+    );
+  } else {
+    return (
+      <div className = "loginForm">
+        <h1>Welcome Student!</h1>
+        <form onSubmit = {props.handleSubmit}>
+            <label>
+              I'm not a student:
+              <input name = "editor" type = "checkbox" checked = {props.editor} onChange = {props.handleChange} />
+            </label>
+            <br />
+            <input type = "submit" value = "Login" />
+        </form>
+      </div>
+    );
+  }
+}
 export default LoginPage;

@@ -21,7 +21,7 @@ class LoginPage extends Component {
     const editor = this.props.editor;
     return (
       <div>
-        <Body name = {name} password = {name} editor = {editor} handleChange = {this.handleChange} handleSubmit = {this.handleSubmit}/>
+        <Body name = {name} password = {password} editor = {editor} handleChange = {this.handleChange} handleSubmit = {this.handleSubmit}/>
         <footer id = "footer">
           <p>C3303694</p>
         </footer>

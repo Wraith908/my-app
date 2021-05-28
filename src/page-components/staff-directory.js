@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Tile from '../components/Tile';
 
 class StaffDirectory extends Component {
   constructor(props) {
@@ -41,7 +42,19 @@ class StaffDirectory extends Component {
 }
 
 function GenerateStaffList(props) {
-  const contents = <p>{props.search}</p>
+  const lecturers = [
+    ['Alexandre Mendes','Alexandre Mendes is a really cool dude'],
+    ['Teuku Aulia Guempana','Teuku Alia Guempana is a really cool dude'],
+    ['Simon Pegg','Simon Pegg is an actor moonlighting a an IT professor']
+  ];
+  const contents = lecturers.map(lecturer => {
+    const lecName = lecturer.[0]
+    const lecBody = lecturer.[1]
+    const search = props.search
+    if (search === null) {search = "";}
+    if (lecName.includes(search) || lecBody.includes(search)) {
+      return <li> <Tile tileType = "staff-listing" title = {lecName} content = {lecBody} /> </li>;
+  }});
   return (
     <div>
       <ul className = "staff-directory">

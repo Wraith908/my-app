@@ -9,6 +9,9 @@ class UniversityExpectations extends Component {
     return (
       <div>
         <h1>University Expecations</h1>
+        <div>
+          
+        </div>
       </div>
     );
   }

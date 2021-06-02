@@ -5,6 +5,7 @@ import WeekOneSurvivalPack from './week-one-survival-pack';
 import StaffDirectory from './staff-directory';
 import UniversityExpectations from './university-expectations';
 import FAQsAndTestimonials from './faqs-and-testimonials';
+import '../style.css';
 
 class LandingPage extends Component {
   constructor(props) {

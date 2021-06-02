@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Tile from '../components/Tile';
+import '../style.css';
 
 class WeekOneSurvivalPack extends Component {
   constructor(props) {

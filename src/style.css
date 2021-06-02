@@ -1,0 +1,165 @@
+/******************************/
+/*       UONBegin - CSS       */
+/******************************/
+
+/*    This CSS file will serve as the main stylesheet for each of the UONBegin website pages    */
+/*  !!  NOTE: This stylesheet is VERY basic at the moment and will require many adjustments in future  !!  */
+
+@charset "UTF-8";
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Tahoma;
+}
+
+
+/*********************************/
+/*         Header stuff          */
+/*********************************/
+
+#header							 /* controls the "UONBegin" header and the background - will ultimately be replaced by the UONBegin logo jpeg image */
+{
+	background-color: slategrey;
+	overflow: hidden;
+	color: white;
+	padding-left: 20px;
+}
+
+
+/*********************************/
+/*         Navbar stuff          */
+/*********************************/
+
+ul								 /* controls positioning of the list as a whole */
+{
+	float: right;
+	padding-right: 50px;
+
+}
+
+li								 /* controls positioning/properties of list items */
+{
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+	background-color: blue;
+	transform: skew(-15deg);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+}
+
+
+
+li a							 /* controls list item color and decoration */
+{
+	color: white;
+	/*transform: skew(20deg);    doesn't work :/ */
+	text-decoration: none;
+}
+
+
+/**********************************************************************************************/
+/*         Big Blue Banner stuff (this box can also be used for other pages later on)         */
+/**********************************************************************************************/
+
+#homepage-banner				 /* controls banner positioning, color, size and skew */
+{
+	margin: auto;
+	background: #33A8FF;
+	text-align: center;
+	width: 800px;
+	height: 300px;
+	transform: skew(-15deg);
+}
+
+
+#banner-text					 /* controls banner text color and skew (NOTE: skew has been added here as a cheap way of counteracting the skew of the homepage banner box - keeps the text straight) */
+{
+	color: #fff;
+	font-size: 1.5em;
+	transform: skew(15deg);
+}
+
+
+
+
+/**********************************************************************************************/
+/*       "space-box" and "main" literally just exist to keep the footer at the bottom         */
+/**********************************************************************************************/
+
+#space-box
+{
+	min-height: 100%;
+}
+
+
+#main
+{
+	overflow: auto;
+	padding-bottom: 50px;
+}
+
+/*********************************/
+/*         Chatbot stuff         */
+/*********************************/
+
+
+#chatbot-head
+{
+	background-color: #33A8FF;
+	padding-bottom: 100px;
+	width: 150px;
+}
+
+#chatbot-header
+{
+	color: #fff;
+	padding-left: 5px;
+	text-align: center;
+	display: grid;
+	place-items: center;
+}
+
+
+#footer
+{
+	padding: 40px;
+	color: #fff;
+	background-color: slategrey;
+	position: relative;
+	height: 100px;
+	margin-top: -100px;
+	clear: both;
+	text-align: center;
+	display: grid;
+	place-items: center;
+}
+
+
+
+
+
+
+
+/* --- Scrap - might use later... --- */
+
+/*#box-text
+{
+	transform: skew(20deg);
+}*/
+
+
+/*#heading
+{
+	color: #fff;
+}*/
+
+
+/*	background-color: slategrey;
+	/*overflow: hidden;
+	text-align: center;
+	padding-bottom: 10px;*/

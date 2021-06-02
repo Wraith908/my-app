@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Tile from '../components/Tile';
+import '../style.css';import '../style.css';
 
 class StaffDirectory extends Component {
   constructor(props) {

@@ -40,7 +40,7 @@ ul								 /* controls positioning of the list as a whole */
 
 }
 
-li								 /* controls positioning/properties of list items */
+li, nav								 /* controls positioning/properties of list items */
 {
 	display: inline-block;
 	list-style: none;

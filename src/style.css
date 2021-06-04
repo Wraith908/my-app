@@ -132,7 +132,6 @@ li a							 /* controls list item color and decoration */
 	background-color: slategrey;
 	position: relative;
 	height: 100px;
-	margin-top: -100px;
 	clear: both;
 	text-align: center;
 	display: grid;

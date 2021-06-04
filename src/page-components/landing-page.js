@@ -29,11 +29,11 @@ class LandingPage extends Component {
             <p>Welcome {editor ? 'Editor ' : 'Student '}{name}</p>
           </header>
           <nav>
-            <Link to ="/" className = "nav-link">University Services</Link>
-            <Link to ="/directory" className = "nav-link">Staff Directory</Link>
-            <Link to ="/week-one-survival-pack" className = "nav-link">Week 1 Survival Pack</Link>
-            <Link to ="/university-expectations" className = "nav-link">What to expect at University</Link>
-            <Link to ="/faqs-and-testimonials" className = "nav-link">FAQs and Testionials</Link>
+            <Link to = "/" className = "nav-link">University Services</Link>
+            <Link to = "/directory" className = "nav-link">Staff Directory</Link>
+            <Link to = "/week-one-survival-pack" className = "nav-link">Week 1 Survival Pack</Link>
+            <Link to = "/university-expectations" className = "nav-link">What to expect at University</Link>
+            <Link to = "/faqs-and-testimonials" className = "nav-link">FAQs and Testionials</Link>
           </nav>
           </div>
           <Switch>
@@ -53,8 +53,9 @@ class LandingPage extends Component {
               <FAQsAndTestimonials />
             </Route>
           </Switch>
+          <p>Here</p>
           <footer id = "footer">
-            <p>C3303694</p>
+            <p>Jacob Neilands: C3303694 | Aaron McCool: c3279449 | Ronit Ronit: c3319077 | Aun Ali: </p>
             <form onSubmit = {this.handleSubmit}>
               <input type = "submit" value = "Logout" />
             </form>

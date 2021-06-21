@@ -132,13 +132,17 @@ footer
 	padding: 40px;
 	color: #fff;
 	background-color: slategrey;
-	position: relative;
 	height: 100px;
 	width: 100%;
 	bottom: 0;
 	text-align: center;
 	display: grid;
 	place-items: center;
+}
+
+/*This is a dirty fix */
+.loginForm {
+	margin-bottom: 30%;
 }
 
 

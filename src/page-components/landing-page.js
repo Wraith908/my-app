@@ -26,7 +26,7 @@ class LandingPage extends Component {
           <div className = "header">
           <header className = "header">
             <h1>UoNBegin</h1>
-            <p>Welcome {editor ? 'Editor ' : 'Student '}{name}</p>
+            <p>Welcome {editor ? 'Editor ' + name  : 'Student '}</p>
           </header>
           <nav>
             <Link to = "/" className = "nav-link">University Services</Link>

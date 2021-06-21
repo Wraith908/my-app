@@ -24,7 +24,7 @@ class LoginPage extends Component {
       <div>
         <Body name = {name} password = {password} editor = {editor} handleChange = {this.handleChange} handleSubmit = {this.handleSubmit}/>
         <footer id = "footer">
-          <p>C3303694</p>
+          <p>Jacob Neilands: C3303694 | Aaron McCool: c3279449 | Ronit Ronit: c3319077 | Aun Ali: 3216616</p>
         </footer>
       </div>
     );

@@ -14,7 +14,7 @@ class UniversityServices extends Component{
           <h1>What uni can do for you</h1>
           <ul>
             <li>
-              <Tile title = "PASS Sessions"
+              <Tile title = "PASS Sessions are great"
               tileType = "university-services"
               content = "As a first year one of the most valuable services that the university offers is PASS, short for Peer Assisted Study Sessions. These are one-hour long sessions run by people that have completed university courses and offer short worksheets that revise the weeks content. These sessions are only run for first year courses and are a highly valuable resource that help to provide structure and acts as a good supplementary resource to workshops and lectures by providing a study group open t everyone. "/>
             </li>

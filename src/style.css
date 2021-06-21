@@ -40,25 +40,42 @@ ul								 /* controls positioning of the list as a whole */
 
 }
 
-li, nav								 /* controls positioning/properties of list items */
+li								 /* controls positioning/properties of list items */
 {
 	display: inline-block;
 	list-style: none;
 	margin-left: 20px;
-	background-color: blue;
+	background-color: #4ab7ff;
 	transform: skew(-15deg);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 30px;
 }
 
+nav
+{
+	align-content: center;
+	transform: skew(-15deg);
+	width: 95%;
+	margin: auto;
+	background-color: #4ab7ff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+}
 
-
-li a							 /* controls list item color and decoration */
+nav a							 /* controls list item color and decoration */
 {
 	color: white;
-	/*transform: skew(20deg);    doesn't work :/ */
 	text-decoration: none;
+	padding-left: 5%;
+}
+
+nav a:hover
+{
+	color: #f2f542;
 }
 
 
@@ -87,21 +104,6 @@ li a							 /* controls list item color and decoration */
 
 
 
-/**********************************************************************************************/
-/*       "space-box" and "main" literally just exist to keep the footer at the bottom         */
-/**********************************************************************************************/
-
-#space-box
-{
-	min-height: 100%;
-}
-
-
-#main
-{
-	overflow: auto;
-	padding-bottom: 50px;
-}
 
 /*********************************/
 /*         Chatbot stuff         */
@@ -125,14 +127,15 @@ li a							 /* controls list item color and decoration */
 }
 
 
-#footer
+footer
 {
 	padding: 40px;
 	color: #fff;
 	background-color: slategrey;
 	position: relative;
 	height: 100px;
-	clear: both;
+	width: 100%;
+	bottom: 0;
 	text-align: center;
 	display: grid;
 	place-items: center;

@@ -46,7 +46,10 @@ function GenerateStaffList(props) {
   const lecturers = [
     ['Alexandre Mendes','Alexandre Mendes is a really cool dude'],
     ['Teuku Aulia Guempana','Teuku Alia Guempana is a really cool dude'],
-    ['Simon Pegg','Simon Pegg is an actor moonlighting a an IT professor']
+    ['Simon Pegg','Simon Pegg is an actor moonlighting a an IT professor'],
+    ['Lorem Ipsum','Tends to ramble alot but has strong core knowledge'],
+    ['Bogo Sort','His tangents tend to spur off in random directions'],
+    ['Nick Frost','Heard Simon Pegg was here and tagged along']
   ];
   const contents = lecturers.map(lecturer => {
     const lecName = lecturer.[0]

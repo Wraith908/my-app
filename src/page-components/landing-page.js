@@ -53,9 +53,8 @@ class LandingPage extends Component {
               <FAQsAndTestimonials />
             </Route>
           </Switch>
-          <p>Here</p>
           <footer id = "footer">
-            <p>Jacob Neilands: C3303694 | Aaron McCool: c3279449 | Ronit Ronit: c3319077 | Aun Ali: </p>
+            <p>Jacob Neilands: C3303694 | Aaron McCool: c3279449 | Ronit Ronit: c3319077 | Aun Ali: 3216616</p>
             <form onSubmit = {this.handleSubmit}>
               <input type = "submit" value = "Logout" />
             </form>
